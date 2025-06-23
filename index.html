@@ -3,142 +3,381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amirhossein Karimi - MARL Researcher</title>
+    <title>Amirhossein Karimi | AI Researcher</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <nav class="navbar">
         <div class="container">
-            <h1>Amirhossein Karimi</h1>
-            <p>MS in Electrical Engineering | Multi-Agent Reinforcement Learning</p>
-            <div class="social-links">
-                <a href="mailto:akari9@unh.newhaven.edu"><i class="fas fa-envelope"></i> Email</a>
-                <a href="https://www.linkedin.com/in/amirhosseinkarimi24" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/Amir-ka" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <div class="logo">AK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">My Story</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>I am a graduate student at the University of New Haven pursuing a Master's in Electrical Engineering with a focus on robust coordination in heterogeneous communicative Multi-Agent Reinforcement Learning (MARL). My research centers on developing power regularization mechanisms to enhance robustness in agent communication.</p>
-        <p>With a background in Power Electronics from Isfahan University of Technology, I've transitioned to the exciting field of AI and MARL, where I work on creating resilient communication protocols for multi-agent systems.</p>
-    </section>
-
-    <section id="research" class="container">
-        <h2>Research</h2>
-        <div class="research-item">
-            <h3>Robust Coordination in Heterogeneous Communicative MARL</h3>
-            <p>My current research focuses on developing novel power regularization mechanisms for robust communication in MARL. This work addresses the challenges of adversarial communication and misalignment in cooperative multi-agent systems.</p>
-            <p><em>University of New Haven, SAIL Lab (Supervisor: Dr. Vahid Behzadan)</em></p>
-        </div>
-        <div class="research-item">
-            <h3>High Step-up DC-DC Converters</h3>
-            <p>Designed and implemented a novel high step-up DC-DC converter with reduced switching and conduction losses for renewable energy applications.</p>
-            <p><em>Isfahan University of Technology (Supervisor: Dr. Ehsan Adib)</em></p>
-        </div>
-    </section>
-
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Communicative Power Regularization in MARL</h3>
-            <p>Developed and implemented Communicative Power Regularization (CPR), a novel method to defend against adversarial communication by penalizing agents' over-reliance on team communication in the Grid Coverage environment.</p>
-        </div>
-        <div class="project-item">
-            <h3>MalConv-based Malware Classifier</h3>
-            <p>Developed a real-time malware detection model using a MalConv-based architecture trained on the EMBER dataset, and deployed it with a Streamlit interface integrated with AWS SageMaker for cloud-based inference on raw .exe files.</p>
-            <a href="#" target="_blank">Project Link</a>
-        </div>
-        <div class="project-item">
-            <h3>MARL Grid-World Simulation Environment</h3>
-            <p>Developed and customized a multi-agent grid-world simulation for Communicative MARL experiments based on the adversarial_comms repository.</p>
-        </div>
-    </section>
-
-    <section id="publications" class="container">
-        <h2>Publications</h2>
-        <div class="publication-item">
-            <p><strong>Robust Coordination under Misaligned Communication via Power Regularization</strong><br>
-            Nancirose Piazza, Amirhossein Karimi, Behnia Soleymani, Vahid Behzadan, Stefan Sarkadi.<br>
-            <em>Under review, ECAI 2025.</em></p>
-        </div>
-        <div class="publication-item">
-            <p><strong>High step-up DC-DC converter with conduction losses and reduced switching losses</strong><br>
-            Akhlaghi, Zahra; Karimi, Amirhossein; Adib, Ehsan.<br>
-            <em>IET Renewable Power Generation, Jan. 2024</em></p>
-        </div>
-    </section>
-
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>University of New Haven</h3>
-            <p><strong>Master of Science in Electrical and Electronics Engineering</strong><br>
-            Jan 2024 - Dec 2025<br>
-            GPA: 4.0/4.0<br>
-            Thesis: Robust Coordination in Heterogeneous Communicative Multi-Agent Reinforcement Learning<br>
-            Awarded Provost Research Assistantship Scholarship</p>
-        </div>
-        <div class="education-item">
-            <h3>Isfahan University of Technology</h3>
-            <p><strong>Bachelor of Science in Electrical Engineering</strong><br>
-            Sep 2017 - Sep 2022<br>
-            GPA: 3.54/4.0<br>
-            Concentration: Power Electronics</p>
-        </div>
-    </section>
-
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-category">
-                <h3>Languages & Libraries</h3>
-                <ul>
-                    <li>Python, C, MATLAB</li>
-                    <li>PyTorch, TensorFlow, JAX</li>
-                    <li>Ray RLlib, NumPy, Pandas, Scikit-learn</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>Platforms & Tools</h3>
-                <ul>
-                    <li>AWS (SageMaker, EC2), Git</li>
-                    <li>OpenAI Gym, PettingZoo, Hugging Face</li>
-                    <li>Stable Baselines3, Streamlit</li>
-                </ul>
-            </div>
-            <div class="skill-category">
-                <h3>EE & Prototyping Software</h3>
-                <ul>
-                    <li>Altium Designer, PSpice, OrCAD</li>
-                    <li>Proteus, AutoCAD, LaTeX</li>
-                    <li>ARM, MicroC PRO for ARM</li>
-                </ul>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Amir! <span class="wave">👋</span></h1>
+                <h2>Exploring the world of AI & Multi-Agent Systems</h2>
+                <p>From power circuits to intelligent agents, I'm on a journey to make AI systems communicate more robustly.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn primary-btn">My Journey</a>
+                    <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="leadership" class="container">
-        <h2>Leadership & Activities</h2>
-        <div class="leadership-item">
-            <h3>IEEE Eta Kappa Nu (HKN) Honor Society – University of New Haven Chapter</h3>
-            <p><strong>President</strong> (Apr 2025 – Present)</p>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Journey</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- Replace with your actual image path -->
+                    <img src="https://via.placeholder.com/400" alt="Amirhossein Karimi">
+                </div>
+                <div class="about-text">
+                    <h3>From Circuit Boards to Neural Networks</h3>
+                    <p>My academic journey began in the world of Power Electronics at Isfahan University of Technology, where I developed a fascination with circuit design and energy systems. I spent countless hours in labs designing high step-up DC-DC converters and optimizing power systems.</p>
+                    
+                    <p>But as they say, life is all about evolution. In 2023, I found myself increasingly drawn to the exciting field of Artificial Intelligence. What started as curiosity quickly turned into passion when I discovered Multi-Agent Reinforcement Learning (MARL).</p>
+                    
+                    <p>Now at the University of New Haven, I'm researching how to make AI agents communicate more robustly, even when faced with adversarial scenarios. It's a thrilling transition that combines my engineering mindset with cutting-edge AI research.</p>
+                    
+                    <p>This shift wasn't just about following trends—it was about finding an area where I could make meaningful contributions while constantly learning and growing. The more I work with MARL systems, the more I'm convinced this is where I belong!</p>
+                    
+                    <div class="journey-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2017-2022</h4>
+                                <p>BS in Electrical Engineering (Power Electronics) at Isfahan University of Technology</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2022-2023</h4>
+                                <p>Research Assistant at Industrial Electronics Lab, working on high step-up DC-DC converters</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2024-Present</h4>
+                                <p>MS in Electrical Engineering at University of New Haven, focusing on robust communication in MARL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="leadership-item">
-            <h3>IEEE Student Chapter at the University of New Haven</h3>
-            <p><strong>Vice President</strong> (Jan 2024 – Present)</p>
+    </section>
+
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Interests</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Multi-Agent Reinforcement Learning</h3>
+                    <p>Exploring how multiple AI agents can learn to coordinate and communicate effectively in complex environments.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Robust Communication</h3>
+                    <p>Developing techniques to make agent communication resilient against adversarial attacks and misalignment.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Power Electronics</h3>
+                    <p>Designing efficient DC-DC converters with reduced switching and conduction losses for renewable energy applications.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Communicative Power Regularization</h3>
+                    <p>My current focus: A novel approach to improve robustness in multi-agent systems through regulating communication influence.</p>
+                </div>
+            </div>
+            
+            <div class="current-work">
+                <h3>Current Research</h3>
+                <div class="research-highlight">
+                    <h4>Robust Coordination under Misaligned Communication via Power Regularization</h4>
+                    <p>At the SAIL Lab (University of New Haven), I'm working with Dr. Vahid Behzadan on developing power regularization mechanisms for robust communication in MARL. Our approach, called Communicative Power Regularization (CPR), helps cooperative agents maintain effective coordination even when faced with adversarial or misaligned communication.</p>
+                    <p>Our paper on this topic is currently under review for ECAI 2025. I also presented this research at Hartford AI Day 2025, where it received valuable feedback from the AI research community.</p>
+                </div>
+            </div>
         </div>
-        <div class="leadership-item">
-            <p>Presented a research poster on power regularization in cooperative MARL at Hartford AI Day 2025.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/350x200" alt="MARL Grid World">
+                    </div>
+                    <div class="project-content">
+                        <h3>MARL Grid-World Simulation</h3>
+                        <p>A customized multi-agent grid-world environment for testing communication protocols between agents under various conditions.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Ray RLlib</span>
+                            <span>GNN</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/350x200" alt="Malware Classifier">
+                    </div>
+                    <div class="project-content">
+                        <h3>MalConv-based Malware Classifier</h3>
+                        <p>A real-time malware detection system using deep learning, deployed with AWS SageMaker for cloud-based inference on raw executable files.</p>
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>AWS</span>
+                            <span>Streamlit</span>
+                            <span>EMBER Dataset</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/350x200" alt="DC-DC Converter">
+                    </div>
+                    <div class="project-content">
+                        <h3>High Step-up DC-DC Converter</h3>
+                        <p>Designed and prototyped a novel converter with reduced switching losses and improved efficiency for renewable energy applications.</p>
+                        <div class="project-tags">
+                            <span>Power Electronics</span>
+                            <span>Altium Designer</span>
+                            <span>PSIM</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Publications</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="publication-list">
+                <div class="publication-item">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <h3>Robust Coordination under Misaligned Communication via Power Regularization</h3>
+                        <p class="authors">Nancirose Piazza, <strong>Amirhossein Karimi</strong>, Behnia Soleymani, Vahid Behzadan, Stefan Sarkadi</p>
+                        <p class="venue">Under review, European Conference on Artificial Intelligence (ECAI) 2025</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link"><i class="fas fa-file-pdf"></i> Preprint</a>
+                            <a href="#" class="pub-link"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="publication-item">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <h3>High step-up DC-DC converter with low conduction losses and reduced switching losses</h3>
+                        <p class="authors">Zahra Akhlaghi, <strong>Amirhossein Karimi</strong>, Ehsan Adib</p>
+                        <p class="venue">IET Renewable Power Generation, January 2024</p>
+                        <div class="pub-links">
+                            <a href="#" class="pub-link"><i class="fas fa-file-pdf"></i> Paper</a>
+                            <a href="#" class="pub-link"><i class="fas fa-link"></i> Publisher</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Tools</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PyTorch</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TensorFlow</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MATLAB</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS SageMaker</span>
+                        <span class="skill-tag">Ray RLlib</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">OpenAI Gym</span>
+                        <span class="skill-tag">PettingZoo</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Stable Baselines3</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-microchip"></i> EE & Hardware</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Altium Designer</span>
+                        <span class="skill-tag">PSpice</span>
+                        <span class="skill-tag">OrCAD</span>
+                        <span class="skill-tag">Proteus</span>
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">ARM</span>
+                        <span class="skill-tag">MicroC PRO</span>
+                        <span class="skill-tag">PSIM</span>
+                        <span class="skill-tag">MATLAB Simulink</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing research, collaboration opportunities, or just chatting about AI and reinforcement learning.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:akari9@unh.newhaven.edu">akari9@unh.newhaven.edu</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/amirhosseinkarimi24" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Amir-ka" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="#" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Amirhossein Karimi. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Amirhossein Karimi</h3>
+                    <p>AI Researcher & Electrical Engineer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:akari9@unh.newhaven.edu"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/amirhosseinkarimi24" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Amir-ka" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Amirhossein Karimi. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
