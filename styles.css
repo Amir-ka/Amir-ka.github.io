@@ -183,7 +183,7 @@ img {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, rgba(230, 236, 255, 0.9), rgba(220, 220, 255, 0.9));
+    background: linear-gradient(135deg, rgba(235, 240, 255, 0.9), rgba(226, 230, 255, 0.9));
     overflow: hidden;
     position: relative;
     padding-top: 80px;
