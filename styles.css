@@ -413,12 +413,19 @@ img {
 }
 
 .project-img {
+    height: 350px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 0 0;
 }
 
 .project-img img {
     width: 100%;
-    transition: var(--transition);
+    height: auto;
+    object-fit: cover;
 }
 
 .project-card:hover .project-img img {
