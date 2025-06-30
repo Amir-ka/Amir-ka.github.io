@@ -427,11 +427,12 @@ img {
     height: 100%;
     object-fit: contain; 
     max-height: 100%;
+    transform: scale(1.05);
     transition: transform 0.3s ease;
 }
 
 .project-card:hover .project-img img {
-    transform: scale(0.95);
+    transform: scale(1);
 }
 
 .project-content {
