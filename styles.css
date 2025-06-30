@@ -432,7 +432,7 @@ img {
 }
 
 .project-card:hover .project-img img {
-    transform: scale(1);
+    transform: scale(1.05);
 }
 
 .project-content {
