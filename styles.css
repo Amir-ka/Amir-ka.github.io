@@ -413,7 +413,7 @@ img {
 }
 
 .project-img {
-    height: 150px;
+    height: 250px;
     overflow: hidden;
     display: flex;
     align-items: center;
