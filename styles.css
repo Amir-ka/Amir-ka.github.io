@@ -253,18 +253,17 @@ img {
 
 .about-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 50px;
 }
 
 .about-image {
-    flex: 1;
-}
-
-.about-image img {
-    border-radius: 10px;
-    box-shadow: var(--shadow);
-    transition: var(--transition);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 .about-image img:hover {
@@ -272,7 +271,7 @@ img {
 }
 
 .about-text {
-    flex: 1;
+    flex: 3;
 }
 
 .about-text h3 {
